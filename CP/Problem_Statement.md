@@ -34,14 +34,14 @@ Print k lines. Each line should contain two integers Roll No. of the applicant a
 200246 178
 
 ## Sample Input 2
-5 2
-200001 0 0 0 100 0 0
-200050 10 50 50 0 0 0
-200009 0 0 0 0 0 50
-200246 0 0 80 0 0 100
+5 2<br>
+200001 0 0 0 100 0 0<br>
+200050 10 50 50 0 0 0<br>
+200009 0 0 0 0 0 50<br>
+200246 0 0 80 0 0 100<br>
 201001 0 0 0 50 80 0
 
 ## Sample Output 2
-200246 178
+200246 178<br>
 200050 176
 
