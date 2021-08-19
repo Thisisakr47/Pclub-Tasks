@@ -1,0 +1,185 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.bg{
+    position: fixed;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0px;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.main-title{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+}
+.body{
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.body-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%; 
+}
+.heading{
+    font-size: 33px;
+    padding: 10px;
+    align-self: start;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.user-container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.user-input{
+    justify-content: center;
+}
+input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid grey;
+}
+.other-websites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 0px;
+    width: 100%;
+}
+.web{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 3px white;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+}
+.web:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    align-self: flex-end; 
+}
+.footer-container{
+    align-self: center;
+    width: 50%;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+}
+.handles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px 30px 0px;
+    justify-content: space-between;
+    align-self: center;
+}
+.web,.fab,.fas{
+    transition: all 200ms ease-in-out;
+}
+.fab,.fas{
+    font-size: 35px;  
+}
+.fa-facebook{
+    color: rgb(0, 149, 255);
+}
+.fa-envelope{
+    color: rgb(168, 8, 19);
+}
+.fa-github{
+    color: white;
+}
+.fa-youtube{
+    color : red;
+}
+.fa-twitter{
+    color: rgb(93,169,221);
+}
+.fab:hover{
+    transform: scale(1.4);
+}
+.fas:hover{
+    transform: scale(1.4);
+}
+@media only screen and (max-width: 550px){
+    .title{
+        margin-bottom: 100px;
+        align-self: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .body-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        width: 360px;
+    }
+
+}
+@media only screen and (max-width: 420px){
+    .footer-container{
+        width: 240px;
+    }
+}
